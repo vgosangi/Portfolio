@@ -1,0 +1,108 @@
+.bg {
+
+    background-color: #f9fbfe;
+    min-height: 65vh;
+
+    background-size: cover;
+    /* padding-bottom: 100px; */
+    text-align: center;
+
+}
+
+.urlBox {
+
+    background-color: hsl(257, 27%, 26%);
+}
+
+.search-box {
+    border-radius: 15px;
+    opacity: 1;
+    width: 100%;
+    padding: 50px;
+    box-shadow: 20px 10px 30px grey;
+
+    background-color: hsl(255, 11%, 22%);
+    /* background-image:url('https://res.cloudinary.com/vgosangi/image/upload/v1667580444/bg-shorten-desktop_gzqb2r.svg') ; */
+}
+
+.template {
+    width: 25%;
+    background-color: white;
+}
+
+.footer-1 {
+    background-color: hsl(255, 11%, 22%);
+    background-image: url('https://res.cloudinary.com/vgosangi/image/upload/v1667580444/bg-boost-desktop_ah7yt8.svg');
+}
+
+
+
+.head {
+    font-size: 100%;
+    color: white;
+    font-weight: bold;
+}
+
+.shortlink_card {
+    background-color: rgb(229, 197, 197);
+    overflow: hidden;
+    margin: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+}
+
+.urls{
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: nowrap;
+    text-align: left;
+}
+/* #urlInput {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    
+
+} */
+
+/* #generateShortUrl {
+  
+    width: 110px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: aquamarine;
+} */
+
+/* #spinner{
+    width: 130px;
+    border-radius: 5px;
+} */
+
+.copybtn {
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    /* margin-left: 15px; */
+   
+}
+
+ .shortenurl {
+    text-align: left;
+}
+ 
+.errormsg {
+    color: red;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.copied {
+    background-color: #72eded;
+}
+.Urlshort_title{
+    font-size: 3vw;
+    
+}
