@@ -2,7 +2,7 @@
 
 .bg-container {
     background-image: radial-gradient(hsl(214, 47%, 23%), hsl(237, 49%, 15%));
-    height: 100vh;
+    /* height: 100vh; */
     background-size: cover;
     padding: 50px;
 
