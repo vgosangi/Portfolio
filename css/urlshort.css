@@ -44,7 +44,7 @@
 }
 
 .shortlink_card {
-    background-color: #898d8f;
+    background-color:#c9e0e7;
     overflow: hidden;
     margin: 25px;
     padding-left: 15px;
@@ -100,7 +100,7 @@
 }
 
 .copied {
-    background-color: #72eded;
+    background-color: #12a642;
 }
 .Urlshort_title{
     font-size: 3vw;
