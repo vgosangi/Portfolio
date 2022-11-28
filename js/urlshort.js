@@ -36,7 +36,7 @@ function displayShortlinks(shortLinksList) {
         resultsDispalyEL.appendChild(linksContainer);
         let originalLink = document.createElement('p');
         originalLink.classList.add('urls')
-        originalLink.textContent = 'Input URL: ' + shortLinksList[1];
+        originalLink.textContent = 'Input URL:  '+ shortLinksList[1];
         linksContainer.appendChild(originalLink);
         let shortenLink = document.createElement('p');
         shortenLink.classList.add('shortenurl');
