@@ -25,6 +25,9 @@ let valueObject = {
     siccorssiccors: 'draw'
 };
 let house = ['siccors', 'rock', 'paper', 'siccors', 'rock', 'paper'];
+document.getElementById('rulesclose').addEventListener('click',function(){
+    document.getElementById('rockrulespop').classList.add('d-none')
+})
 
 document.getElementById('playagain').addEventListener('click', function() {
     mainEl.classList.remove('d-none');
