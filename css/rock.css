@@ -299,3 +299,49 @@
 /* .wrapper {
     background: repeating-radial-gradient(circle at 100%,hsl(214, 47%, 23%),hsl(237, 49%, 15%));
   } */
+
+
+/* model */
+
+.mymodal {
+    /* display: none; Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    
+  
+  }
+  
+  /* Modal Content/Box */
+  .modalcontent {
+    background-color: #fefefe;
+    margin: 16% auto; /* 15% from the top and centered */
+    padding: 16px;
+    border: 1px solid #888;
+    width: 20%; /* Could be more or less, depending on screen size */
+    min-width:200px;
+  }
+@media (max-width:360px){
+    .modalcontent{
+        margin-top: 70%;
+        width: 80%;
+    
+    }
+}
+  /* The Close Button */
+  .rockclose {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .rockclose:hover,
+  .rickclose:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
