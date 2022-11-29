@@ -318,11 +318,11 @@
   /* Modal Content/Box */
   .modalcontent {
     background-color: #fefefe;
-    margin: 16% auto; /* 15% from the top and centered */
-    padding: 16px;
+    margin: 18% auto; /* 15% from the top and centered */
+    padding: 10px;
     border: 1px solid #888;
     width: 20%; /* Could be more or less, depending on screen size */
-    min-width:200px;
+    
   }
 @media (max-width:360px){
     .modalcontent{
@@ -337,6 +337,7 @@
     float: right;
     font-size: 28px;
     font-weight: bold;
+  
   }
   
   .rockclose:hover,
